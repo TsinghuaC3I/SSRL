@@ -36,7 +36,7 @@
 Previous work leverage external search engines during training, which is expensive and time-consuming, yet introducing training instability. We introduce SSRL, a novel approach that enables RL on Agentic search tasks without the need for explicit search engines which achieves comparable performance to previous methods. Though trained totally offline, it can be seamlessly applied to online search engines, and further boost its performance. 
 
 <p align="center">
-   <img src="figs/teaser.png" alt="Performance and settings of SSRL." style="width: 80%;">
+   <img src="figs/teaser.jpg" alt="Performance and settings of SSRL." style="width: 80%;">
 </p>
 
 <!-- 
