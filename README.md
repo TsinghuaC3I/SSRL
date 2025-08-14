@@ -2,10 +2,10 @@
 
 # SSRL: Self-Search Reinforcement Learning
 
-[![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2504.16084)  [![Github](https://img.shields.io/badge/SSRL-000000?style=for-the-badge&logo=github&logoColor=000&logoColor=white)](https://github.com/YuchenFan48/SSRL)
+[![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2504.16084)  [![Github](https://img.shields.io/badge/SSRL-000000?style=for-the-badge&logo=github&logoColor=000&logoColor=white)](https://github.com/TsinghuaC3I/SSRL)
 [![Wandb Log of SSRL](https://img.shields.io/badge/Wandb%20Log%20of%20SSRL-%2300B4AB?style=for-the-badge&logo=weightsandbiases&logoColor=white&labelColor=000000)](https://wandb.ai/yuchenfan/Rethink%20Search%20Scaling/reports/SSRL--VmlldzoxMzg3Nzc0NA)
-[![Huggingface Model Collection](https://img.shields.io/badge/Hugging%20Face%20Model-%23FFD14D?style=for-the-badge&logo=huggingface&logoColor=white&labelColor=000000)](https://huggingface.co/collections/yuchenFan/ssrl-6892aa60edf73d32342834fc)
-[![Huggingface Dataset Collection](https://img.shields.io/badge/Hugging%20Face%20Dataset-%23FFD14D?style=for-the-badge&logo=huggingface&logoColor=white&labelColor=000000)](https://huggingface.co/datasets/yuchenFan/SSRL)
+[![Huggingface Model Collection](https://img.shields.io/badge/Hugging%20Face%20Model-%23FFD14D?style=for-the-badge&logo=huggingface&logoColor=white&labelColor=000000)](https://huggingface.co/collections/TsinghuaC3I/SSRL-6892aa60edf73d32342834fc)
+[![Huggingface Dataset Collection](https://img.shields.io/badge/Hugging%20Face%20Dataset-%23FFD14D?style=for-the-badge&logo=huggingface&logoColor=white&labelColor=000000)](https://huggingface.co/datasets/TsinghuaC3I/SSRL)
 </div>
 
 <div align="center" style="font-family: Arial, sans-serif;">
@@ -77,12 +77,12 @@ Furthermore, although SSRL is trained offline, it can be seamlessly applied to o
 You can reproduce the results of SSRL with the following commands:
 
 ```bash
-git clone https://github.com/YuchenFan48/SSRL
+git clone https://github.com/TsinghuaC3I/SSRL
 cd verl
 
 pip install -r requirements.txt
 
-huggingface-cli download --repo-type dataset --resume-download yuchenFan/SSRL --local-dir SSRL_dataset # download the dataset
+huggingface-cli download --repo-type dataset --resume-download TsinghuaC3I/SSRL --local-dir SSRL_dataset # download the dataset
 
 bash examples/ssrl/example.sh
 ```
