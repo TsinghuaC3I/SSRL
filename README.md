@@ -24,7 +24,7 @@
 
 # 🎉News
 
-- **[2025-04-23]** We present **SSRL** (Self-Search Reinforcement Learning), an investigation for Agentic Search RL without reliance on external search engine.
+- **[2025-08-15]** We present **SSRL** (Self-Search Reinforcement Learning), an investigation for Agentic Search RL without reliance on external search engine.
   
 # 📖Introduction
 
