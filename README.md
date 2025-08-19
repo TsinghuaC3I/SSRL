@@ -24,6 +24,7 @@
 
 # 🎉News
 
+- **[2025-08-18]** **SSRL** ranks **first** on Huggingface Daily Paper.
 - **[2025-08-15]** We present **SSRL** (Self-Search Reinforcement Learning), an investigation for Agentic Search RL without reliance on external search engine.
   
 # 📖Introduction
